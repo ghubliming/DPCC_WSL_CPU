@@ -48,5 +48,3 @@ From your CPU logs, picking sample epochs:
 | Time per seed | **~2h 47min** | **~2h 17min** |
 | 5 seeds total | **~14h** | **~11.5h** |
 | Speedup | 1× | **~1.2×** |
-
-**Both CPU and Colab are essentially the same speed** — confirming the model is **not using GPU** in either case. The T4 GPU is available but untouched. Fixing the device patches would bring this down to **~50 min total** for all 5 seeds. ✓
